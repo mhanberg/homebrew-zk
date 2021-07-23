@@ -1,11 +1,16 @@
-# Mhanberg Zk
+# zk tap for brew
 
-## How do I install these formulae?
+This is a custom homebrew tap for [zk](https://github.com/mickael-menu/zk).
 
-`brew install mhanberg/zk/<formula>`
+Currently, this only generates bottles for macOS Catalina and x86-64 Linux. macOS Big Sur runners for GitHub Actions will be available soon, and I'll update this to include arm64 bottles for both Mac and Linux.
 
-Or `brew tap mhanberg/zk` and then `brew install <formula>`.
+## Install
 
-## Documentation
+```shell
+$ brew tap mhanberg/zk
+$ brew install zk
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+# or
+
+$ brew install mhanberg/zk/zk
+```
