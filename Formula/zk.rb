@@ -5,6 +5,12 @@ class Zk < Formula
   sha256 "ec215c7cf7520a34404f89816db790b910912c8373d228d472c941439c475e43"
   license "GPL-3.0-only"
 
+  bottle do
+    root_url "https://github.com/mhanberg/homebrew-zk/releases/download/zk-0.6.0"
+    sha256 cellar: :any,                 catalina:     "0bec5b8213fe886fe883d24c2dcb5693fcddb757462676924c3ace2f3b933374"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "e9531f635e0d95f2427c6d8587588a7031049a30783a02959d506abf42afe7ab"
+  end
+
   depends_on "go" => :build
 
   depends_on "icu4c"
