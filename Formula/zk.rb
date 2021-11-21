@@ -1,8 +1,8 @@
 class Zk < Formula
   desc "Plain text note-taking assistant"
   homepage "https://github.com/mickael-menu/zk"
-  url "https://github.com/mickael-menu/zk/archive/refs/tags/v0.7.0.tar.gz"
-  sha256 "c68168a99950598e2ecfc35aa75bbd9120ed958ce1c39a77c340c4e7f27f6de5"
+  url "https://github.com/mickael-menu/zk/archive/refs/tags/v0.8.0.tar.gz"
+  sha256 "5a3a9a439190a795b000127c5cbfbe87e432e24cc1e8e02a683d962437fcd58e"
   license "GPL-3.0-only"
 
   bottle do
