@@ -6,9 +6,9 @@ class Zk < Formula
   license "GPL-3.0-only"
 
   bottle do
-    root_url "https://github.com/mhanberg/homebrew-zk/releases/download/zk-0.7.0"
-    sha256 cellar: :any,                 catalina:     "9467002e34ddab0ddc6230662663714f9c23302603d3e12740ba770619f55f79"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "77c719205adc7c3ee00d4f3b607913d3918c840faec85288948cbe588b98bda0"
+    root_url "https://github.com/mhanberg/homebrew-zk/releases/download/zk-0.8.0"
+    sha256 cellar: :any,                 catalina:     "5aba83544f414b29498c4fc565d0b14e217d5c2465a052f724eddb60daf1b574"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "f6a55d183206f4d60b20825a7e1ff9d3f4b1c4f07dd2b8092b98572ff245d55b"
   end
 
   depends_on "go" => :build
