@@ -5,6 +5,8 @@ class Zk < Formula
   sha256 "b1967e93469aa6abdc49d0cbd21f603576bcf09d94c2a13a6dce78bbf2983805"
   license "GPL-3.0-only"
 
+  head "https://github.com/mickael-menu/zk.git", branch: "main"
+
   bottle do
     root_url "https://github.com/mhanberg/homebrew-zk/releases/download/zk-0.8.0"
     sha256 cellar: :any,                 catalina:     "5aba83544f414b29498c4fc565d0b14e217d5c2465a052f724eddb60daf1b574"
