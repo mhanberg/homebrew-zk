@@ -14,6 +14,7 @@ class Zk < Formula
   end
 
   depends_on "go" => :build
+  depends_on "git-lfs" => :build
 
   depends_on "icu4c"
   depends_on "sqlite3"
