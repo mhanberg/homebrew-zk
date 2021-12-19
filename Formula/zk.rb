@@ -8,9 +8,9 @@ class Zk < Formula
   head "https://github.com/mickael-menu/zk.git", branch: "main"
 
   bottle do
-    root_url "https://github.com/mhanberg/homebrew-zk/releases/download/zk-0.8.0"
-    sha256 cellar: :any,                 catalina:     "5aba83544f414b29498c4fc565d0b14e217d5c2465a052f724eddb60daf1b574"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "f6a55d183206f4d60b20825a7e1ff9d3f4b1c4f07dd2b8092b98572ff245d55b"
+    root_url "https://github.com/mhanberg/homebrew-zk/releases/download/zk-0.9.0"
+    sha256 cellar: :any,                 big_sur:      "972cc0e12c3a275a208f74e97991bd25f6e4bfb4ac8416964188d972191e0442"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "e5687d3e89b780cba6778067e681e7055b315cbf005ae3a7cc08bc1832a2de84"
   end
 
   depends_on "go" => :build
