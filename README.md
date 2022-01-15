@@ -1,3 +1,5 @@
+> Deprecated. zk has been added to homebrew-core
+
 # zk tap for brew
 
 This is a custom homebrew tap for [zk](https://github.com/mickael-menu/zk).
